@@ -2,14 +2,14 @@
 
 
 function findMatching(driver, name){
- const newDrivers = [];
+ const newDriversArray = [];
  for(const firstName of driver){
 
  	if (firstName.toLowerCase()  === name.toLowerCase()) { 		
- 		 newDrivers.push(firstName); 	
+ 		 newDriversArray.push(firstName); 	
  }
 }
-return newDrivers;
+return newDriversArray;
 }
 function fuzzyMatch(drivers, firstTwoLetters){
 return drivers.filter(function(el) {
@@ -21,7 +21,7 @@ const newDrivers = [];
 
  for(const firstName of driver){
 
- 	if (firstName.name  === name) {
+ 	if (firstName.name === name) {
  		
  		 newDrivers.push(firstName);
  }
