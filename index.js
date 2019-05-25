@@ -18,16 +18,6 @@ return drivers.filter(function(el) {
   })
 }
  function matchName(driver, name){
-const newDrivers = [];
-
- for(const firstName of driver){
-
- 	if (firstName.name === name) {
- 		
- 		 newDrivers.push(firstName);
- }
- }
-return newDrivers;
 
  }
 
