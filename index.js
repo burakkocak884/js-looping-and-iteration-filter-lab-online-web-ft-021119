@@ -1,8 +1,9 @@
 
 
 
-function findMatching(driver, name){
+    function findMatching(driver, name){
  const newDriversArray = [];
+ 
  for(const firstName of driver){
 
  	if (firstName.toLowerCase()  === name.toLowerCase()) { 		
