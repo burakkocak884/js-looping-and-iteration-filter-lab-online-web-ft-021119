@@ -9,7 +9,6 @@ function findMatching(driver, name){
  		 newDrivers.push(firstName); 	
  }
 }
-
 return newDrivers;
 }
 function fuzzyMatch(drivers, firstTwoLetters){
@@ -27,7 +26,6 @@ const newDrivers = [];
  		 newDrivers.push(firstName);
  }
  }
-
 return newDrivers;
 
  }
