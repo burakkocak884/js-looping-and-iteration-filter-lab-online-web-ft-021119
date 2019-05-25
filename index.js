@@ -5,13 +5,10 @@ function findMatching(driver, name){
  const newDrivers = [];
  for(const firstName of driver){
 
- 	if (firstName.toLowerCase()  === name.toLowerCase()) {
- 		
- 		 newDrivers.push(firstName);
- 	
+ 	if (firstName.toLowerCase()  === name.toLowerCase()) { 		
+ 		 newDrivers.push(firstName); 	
  }
-
- }
+}
 
 return newDrivers;
 }
