@@ -16,9 +16,6 @@ function findMatching(driver, name){
 return newDrivers;
 }
 function fuzzyMatch(drivers, firstTwoLetters){
-
-
-
 return drivers.filter(function(el) {
       return el.charAt(0).toLowerCase() === firstTwoLetters.charAt(0).toLowerCase();
   })
@@ -31,9 +28,6 @@ const newDrivers = [];
  	if (firstName.name  === name) {
  		
  		 newDrivers.push(firstName);
- 	
-
- 	
  }
  }
 
